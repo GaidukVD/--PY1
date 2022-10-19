@@ -7,7 +7,7 @@ month = 0  # количество месяцев, которое можно пр
 
 # TODO Оформить решение
 
-while money_capital > 0:
+while money_capital > spend:
     money_capital = money_capital - (spend - salary)
     spend *= increase
     month += 1
