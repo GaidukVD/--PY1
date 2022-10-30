@@ -14,7 +14,6 @@ def get_count_proc(dict_):
     letter_dict_proc = {}
     for i in dict_:
         sum_ += dict_.get(i)
-        # letter_dict_proc[i] = letter_dict_proc.get(i)
     for n in dict_:
         letter_dict_proc[n] = dict_.get(n)/sum_
     return letter_dict_proc
